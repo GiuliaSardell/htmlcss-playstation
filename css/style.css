@@ -1,0 +1,23 @@
+.header-top{
+  height: 30px;
+}
+
+/* .header-bottom{
+  height: 70px;
+} */
+
+.gs-logo{
+  width: 70px;
+  margin: 0 10px;
+}
+
+.navbar-nav li{
+  color: black;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black !important;
+}
+

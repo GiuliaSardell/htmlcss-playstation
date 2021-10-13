@@ -136,5 +136,19 @@ header{
 
 }
 
+/* *****divider-white****** */
 
+.divider-white{
+  background-color: white;
+  /* height: 200px; */
+  /* da togliere */
+}
+
+.text-divider-white{
+  padding-top: 30px;
+}
+
+.gs-h2-black{
+  color: black;
+}
 

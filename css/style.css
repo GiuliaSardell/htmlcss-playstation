@@ -152,3 +152,18 @@ header{
   color: black;
 }
 
+/* ***********playstation5******** */
+
+/* .playstation5{
+  padding-top: 50px;
+} */
+
+.box-playstation-img img{
+  width: 100%;
+}
+
+.gs-button-blue{
+  background-color: #2D64E6;
+  border-color: #2D64E6;
+
+}

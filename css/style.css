@@ -7,6 +7,7 @@ body{
 header{
   position: fixed;
   top: 0;
+  z-index: 500;
   width: 100%;
 }
 
@@ -39,6 +40,8 @@ header{
   padding: 5px 15px;
   border-radius: 40px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -81,7 +84,6 @@ header{
 .gs-jumbotron{
   margin-top: 105px;
   height: 400px;
-  /* da togliere */
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
@@ -95,7 +97,7 @@ header{
   position: absolute;
   bottom: 50px;
   left: 50px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .gs-text-jumbo{
@@ -154,9 +156,9 @@ header{
 
 /* ***********playstation5******** */
 
-/* .playstation5{
+.playstation5{
   padding-top: 50px;
-} */
+}
 
 .box-playstation-img img{
   width: 100%;
@@ -165,5 +167,26 @@ header{
 .gs-button-blue{
   background-color: #2D64E6;
   border-color: #2D64E6;
+  margin: 20px 0;
+}
 
+
+/* *************5COL-PLAY********* */
+
+.gs-5col-play{
+  padding-bottom: 50px;
+
+}
+.container-img-5col-play img{
+  width: 200px;
+  filter: opacity(.7);
+}
+
+.container-img-5col-play img:hover{
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+  filter: opacity(1);
+
+  /* filter: none; */
+  
 }

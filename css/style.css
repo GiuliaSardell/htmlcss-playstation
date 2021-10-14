@@ -83,7 +83,7 @@ header{
 
 .gs-jumbotron{
   margin-top: 105px;
-  height: 400px;
+  min-height: 400px;
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
@@ -93,8 +93,11 @@ header{
   position: relative;
 }
 
-.gs-content-jumbo{
+.gs-absolute{
   position: absolute;
+}
+
+.gs-content-jumbo{
   bottom: 50px;
   left: 50px;
   max-width: 350px;
@@ -177,16 +180,54 @@ header{
   padding-bottom: 50px;
 
 }
+
+
 .container-img-5col-play img{
-  width: 200px;
+  width: 100%;
   filter: opacity(.7);
 }
 
 .container-img-5col-play img:hover{
-  border-bottom: 1px solid blue;
-  cursor: pointer;
-  filter: opacity(1);
-
-  /* filter: none; */
   
+  cursor: pointer;
+  filter: opacity(1); 
+}
+
+.container-img-5col-play:hover{
+  border-bottom: 1px solid blue;
+
+}
+
+.text-5col-play{
+  width: 80px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+
+
+/* @media screen and (max-width:767px){
+  .text-5col-play{
+    display: none;
+  }
+
+} */
+
+/* **********gs-second-jumbo****** */
+
+
+.gs-second-jumbotron{
+  min-height: 600px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.gs-content-second-jumbo{
+  bottom: 50px;
+  left: 30px;
+  max-width: 450px ;
+}
+
+.gs-content-second-jumbo p{
+  color: white;
 }

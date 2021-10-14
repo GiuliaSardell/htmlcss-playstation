@@ -89,17 +89,16 @@ header{
   background-size: cover;
 }
 
-.gs-relative{
+/* .gs-relative{
   position: relative;
 }
 
 .gs-absolute{
   position: absolute;
-}
+} */
 
 .gs-content-jumbo{
-  bottom: 50px;
-  left: 50px;
+  padding-top: 90px;
   max-width: 350px;
 }
 
@@ -223,11 +222,18 @@ header{
 }
 
 .gs-content-second-jumbo{
-  bottom: 50px;
-  left: 30px;
+  padding-top: 110px;
   max-width: 450px ;
 }
 
 .gs-content-second-jumbo p{
   color: white;
+}
+
+/* *****section-grey******* */
+
+.gs-section-grey{
+  background-color: #1F1F1F;
+  min-height: 500px;
+  padding: 20px 0;
 }

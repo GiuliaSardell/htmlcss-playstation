@@ -316,3 +316,44 @@ header{
 .social h2{
   padding: 30px 0;
 }
+
+/* *******footer******* */
+
+footer{
+  margin-top: 70px;
+  height: 500px;
+  background-color: #00439C;
+}
+
+.logo-play-footer img{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.text-white i{
+  margin-right: 10px;
+}
+
+ul li{
+  margin: 5px 0;
+
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.gs-row-footer{
+  padding-top: 50px;
+}
+
+.gs-logo-sie{
+  width: 150px;
+}

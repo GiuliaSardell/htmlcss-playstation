@@ -35,10 +35,24 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Giochi
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                <ul class="dropdown-menu gs-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="gs-dropdown-item" href="#">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-4 text-center gs-hover-menu"><img class="icon-play-menu my-3" src="img/play-menu-ico.png" alt=""></div>
+                        <div class="col-4 text-center gs-hover-menu"><img class="icon-play-menu my-3" src="img/play-menu-ico.png" alt=""></div>
+                        <div class="col-4 text-center gs-hover-menu"><img class="icon-play-menu my-3" src="img/play-menu-ico.png" alt=""></div>
+                      </div>
+                    </div>
+                    </a></li>
+                  
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </a></li>
+
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -100,9 +114,9 @@
                 </li>
               </div>
 
-              <button type="button" class="gs-button gs-button-black">Accedi</button>
+              <button type="button" class="gs-button gs-button-black d-none d-lg-block"> <span>Accedi</span> </button>
 
-              <a class="dropdown-item gs-container-i pt-2" href="#">
+              <a class="dropdown-item gs-container-i pt-2 d-none d-lg-block" href="#">
                 <i class="gs-search fas fa-search"></i>
               </a>
               
@@ -133,7 +147,7 @@
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aut vel minima ut aliquid sunt alias incidunt earum at praesentium.</p>
 
-      <button type="button" class="gs-button gs-button-orange">Acquista ora</button>
+      <button type="button" class="gs-button gs-button-orange"> <span>Acquista ora</span> </button>
 
     </div>
     </div>
@@ -203,7 +217,7 @@
 
             <h2 class="gs-h2 gs-h2-black">Console Play Station 5</h2>
             <span class="text-secondary">Sperimenta la nuova generaizone di incredibili giochi.</span>
-            <button type="button" class="gs-button gs-button-blue">Acquista ora</button>
+            <button type="button" class="gs-button gs-button-blue"> <span>Acquista ora</span> </button>
 
           </div>
         </div>
@@ -278,7 +292,7 @@
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aut vel minima ut aliquid sunt alias incidunt earum at praesentium.</p>
 
-      <button type="button" class="gs-button gs-button-orange">Acquista ora</button>
+      <button type="button" class="gs-button gs-button-orange"> <span>Acquista ora</span> </button>
 
     </div>
   </div>
@@ -449,7 +463,7 @@
           <div class="text-options">
             <h2>Playstation 4</h2>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ipsam.</span>
-            <button type="button" class="gs-button gs-button-blue">Scopri di più</button>
+            <button type="button" class="gs-button gs-button-blue"> <span>Scopri di più</span> </button>
           </div>
         </div>
         <div class="col-12 col-md-4 pt-2">
@@ -459,7 +473,7 @@
           <div class="text-options">
             <h2>Playstation 4</h2>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ipsam.</span>
-            <button type="button" class="gs-button gs-button-blue">Scopri di più</button>
+            <button type="button" class="gs-button gs-button-blue"> <span>Scopri di più</span> </button>
           </div>
         </div>
         <div class="col-12 col-md-4 pt-2">
@@ -469,7 +483,7 @@
           <div class="text-options">
             <h2>Playstation 4</h2>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ipsam.</span>
-            <button type="button" class="gs-button gs-button-blue">Scopri di più</button>
+            <button type="button" class="gs-button gs-button-blue"> <span>Scopri di più</span> </button>
           </div>
         </div>
       </div>
@@ -487,7 +501,7 @@
   
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aut vel minima ut aliquid sunt alias incidunt earum at praesentium.</p>
   
-        <button type="button" class="gs-button gs-button-whiteblue">Acquista ora</button>
+        <button type="button" class="gs-button gs-button-whiteblue"> <span>Acquista ora</span> </button>
         </div>
       </div>
       <div class="col d-flex justify-content-center d-none d-md-block">
@@ -548,7 +562,7 @@
   
         <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aut vel minima ut aliquid sunt alias incidunt earum at praesentium.</p>
   
-        <button type="button" class="gs-button gs-button-white text-black">Esplora PlayStation Now</button>
+        <button type="button" class="gs-button gs-button-white text-black"> <span>Esplora PlayStation Now</span> </button>
         </div>
       </div>
       <div class="col d-flex justify-content-center d-none d-md-block">
@@ -639,13 +653,13 @@
 
       </div>
 
-      <div class="row mt-4">
+      <div class="row">
         <div class="col-6">
           <div class="gs-logo-sie">
             <img src="img/sie-logo.svg" alt="">
           </div>
           <p class="text-white mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum odio quidem nam optio ut, qui quos doloribus rerum voluptas eligendi nesciunt enim eveniet quia? Vitae quis inventore corrupti <a class="text-white" href="#">Maggiori info</a> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum odio quidem nam optio ut, qui quos doloribus rerum voluptas eligendi nesciunt enim eveniet quia? Vitae quis inventore corrupti <a class="" href="#">Maggiori info</a> 
           </p>
         </div>
       </div>
